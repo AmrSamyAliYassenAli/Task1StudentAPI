@@ -1,0 +1,25 @@
+student
+{
+	name,
+	id(auto increment),
+	email,
+	password,
+	courses[]
+}
+
+add student
+getall student
+getbyid student
+delete student
+edit student
+add courses
+get courses
+remove courses from student
+(apis, hbs=extra)
+
+{
+                    student_Id:1,
+                    name:req.body.name,
+                    email:req.body.email,
+                    password:req.body.password
+                }
